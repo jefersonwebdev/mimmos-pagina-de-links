@@ -17,13 +17,9 @@
 
 body {
     min-height: 100vh;
-    padding: 64px 16px;
+    padding: 4rem 1rem;
     font-family: "poppins", Helvetica, sans-serif;
     background: linear-gradient(25deg, #e26d8b 0%, #91cdc8 50%, #eec4ca 100%);
-}
-
-.borda {
-    border: 1px solid transparent;
 }
 
 .container {
@@ -44,24 +40,20 @@ body {
     color: var(--branco);
 }
 
-.lista {
-    
-}
-
 .lista-item {
     text-align: center;
 }
 
 .lista-link {
     display: block;
-    min-height: 64px;
+    min-height: 4rem;
     align-content: center;
     text-align: center;
     padding: 8px 44px;
     color: var(--branco);
     font-weight: bold;
-    border-radius: 32px;
-    margin-bottom: 16px;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
     background-color: var(--rosa-forte);
     border: 2px solid var(--rosa-forte);
     transition: all 0.3s ease;
@@ -74,7 +66,7 @@ body {
 }
 
 .lista-link i {
-    margin-right: 16px;
+    margin-right: 1rem;
 }
 
 .lista-link span {
